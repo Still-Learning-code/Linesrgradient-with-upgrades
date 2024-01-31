@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/515aecdffd.js"crossorgin"anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Welcome</h3>
+  <div class="overlay">
+    <div class="text">To the Show</div>
+  </div>
+</div>
+    <div> Hover over Welcome </div>
+    <i class="fa-brands fa-facebook fa-2xl" style="color: #63E6BE;"></i>
+    <br>
+    <br>
+    <i class="fa-brands fa-twitter fa-2xl" style="color: #B197FC;"></i>
+    <br>
+    <br>
+    <i class="fa-brands fa-tiktok fa-xl" style="color: #74C0FC;"></i>
+    <br>
+    <br>
+    <i class="fa-brands fa-youtube fa-2xl" style="color: #FFD43B;"></i>
+    <aside>
+      <th> Information center</th>
+      <ul>
+        <li>Company name</li>
+        <li>Address</li>
+        <li>Email</li>
+        <li>Telephone</li>
+      </ul>
+    </aside>
+</body>
+</html>
+
+  
+
+body {
+ background:linear-gradient(to right, orangered 50%, whitesmoke 20% 40%); 
+}
+.container {
+  position:sticky;
+  left: 225px;
+  top: 200px;
+  font-size: 35px;
+  color: #0000BA;  
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0000BA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 1.5s ease-in-out;
+}
+
+.container:hover .overlay {
+  width: 85%;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+div{
+  text-align: center;
+  font-size: 20px;
+}
+
+i {
+  position: sticky;
+  left: 900px;
+}
+ul {
+  list-style-type: none;
+}
+
