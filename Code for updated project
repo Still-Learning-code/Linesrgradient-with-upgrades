@@ -83,7 +83,16 @@ i {
   position: sticky;
   left: 900px;
 }
+aside {
+  font: 25px Verdana;
+  color:#2c5d63;
+}
+
 ul {
   list-style-type: none;
+  font: 15px arial;
+  color: greenyellow;
 }
+
+
 
